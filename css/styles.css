@@ -1,0 +1,217 @@
+:root{ 
+    --primary-text-color:  #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color:#FFFFFF;
+}
+body{
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+ul{
+    list-style-type: none;
+}
+
+button{
+    font-family: inherit;
+    
+}
+
+.logo{
+    font-family: 'Raleway';
+     font-weight: 700;
+    font-size: 26px;
+    
+    text-decoration: none;
+}
+.logo-web{
+    color: #2196F3;
+}
+
+.logo-studio{
+    color: #000000;
+}
+
+/* Site-nav */
+.site-nav{
+    color:  var(--primary-text-color);
+    
+}
+
+.link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+}
+.site-nav .link{
+    color: var(--primary-text-color);
+}
+
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);  
+} 
+.contacs .link{
+    color: var(--title-text-color);
+}
+.contacs .link:hover,
+.contacs .link:focus{
+    color: var(--accent-color); 
+}
+ 
+/* Hero section Webstudio */
+
+.hero{
+    background-color: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--primary-white-color);
+}
+.btn{
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    
+
+    background-color: var(--accent-color) ;
+    color: var(--primary-white-color);
+
+}
+
+/* Section Наші Переваги */
+.our-benefits,
+.title-portfolio{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+        
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+ }
+.our-title{
+    font-size: 14px;
+    line-height: 1.14;
+    
+    color: var(--primary-text-color);
+}
+
+.our-text{
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: var(--title-text-color);
+}
+
+/* Section Чим ми займаємось */
+.section-title{
+    
+    font-size: 36px;
+    line-height: 1.17;
+    
+    color: var(--primary-text-color);
+}
+
+/* Section Наша Командна  */
+.team{
+    background-color:  #F5F4FA;
+}
+.team-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.team-position{
+    text-align: center;
+
+    color: var(--title-text-color);
+}
+
+/* Section Footer */
+.address{   
+    background: #2F303A;
+}
+.logo-footer{
+    color: var(--primary-white-color);
+
+}
+.link-footer .maps{
+    color:var(--primary-white-color);
+}
+.nav-address .link-footer{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+.nav-address .maps{
+    color:var(--primary-white-color);}
+
+.nav-address .contacs{
+    color: rgba(255, 255, 255, 0.6); 
+}
+
+
+.contacs:hover,
+.contacs:focus{
+    color: var(--accent-color); 
+}
+
+/* Page Portfolio */
+/* Section Nav Portfolio */
+
+.btn-nav{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+
+    background-color: #F5F4FA;
+    color: var(--primary-text-color);
+}
+.btn-nav:hover,
+.btn-nav:focus {
+    background-color:var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+/* Section Наші Роботи */
+.works-title{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: var(--primary-text-color);
+
+}
+.works-text{
+    color: var(--title-text-color);
+    line-height: 1.87;
+}
